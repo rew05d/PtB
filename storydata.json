@@ -1,0 +1,88 @@
+{
+    "pages": [{
+            "pageID": "The Void",
+            "pagetitle": "You are in a Void.",
+            "pagecontent": "<p>When you look around you see nothing. You have never seen another person or thing here, except for the button. Every time you get close to the button you feel nauseous. You feel a sinking feeling in the pit of your stomach.</p> <p>It doesn't feel like any other dream you have ever had. Time moves as if you are counting every second until your alarm goes off.</p><p> Every night you are given the same choice: to press the button or not. You've not pressed it for months because of how getting close to it makes you feel. It feels wrong. But you can't take it for much longer. Maybe tonight you'll finally press it.</p><p>You stand in front of the button. You feel like you are about to throw up. Your hand hovers above the button.</p>",
+            "pageimg": "images/PtB-center.jpg",
+            "color": "#ea5a54",
+            "pagechoice": [{
+                    "choicecontent": "Press the button",
+                    "nextPageID": "Transported"
+                },
+                {
+                    "choicecontent": "Wait until you wake up and refuse to press the button",
+                    "nextPageID": "Alarm Clock"
+                }
+            ]
+        },
+        {
+            "pageID": "Transported",
+            "pagetitle": "Transported",
+            "pagecontent": "<p>You are transported into a bright field of tall green grasses and wildflowers you have never seen before.</p><p>You are on a gravel path. As you follow the path, you hear the sound of the pebbles shifting beneath your feet and feel the lightly-scented, fresh air brush against your skin.</p><p>At the top of a hill, there is a sign next to the path that reads:</p><p>&#34;Welcome, traveler. You are now leaving Voidspace. Welcome to the Crossroads Realm. You are currently at realm access point JX-27-Orange-Quokka-93.&#34;</p><p>In the distance, you see a tall stone structure that looks pristine yet ancient.<br /></p><p>As you walk closer, you see three arches light up before you. In each archway, there is an incongruous scene with the world around you.</p>",
+            "pageimg": "images/to-the-portal-realm.jpg",
+            "color": "#4b4e22",
+            "pagechoice": [{
+                "choicecontent": "Walk towards the structure in the distance",
+                "nextPageID": "Portal Realm"
+            }]
+        },
+        {
+            "pageID": "Portal Realm",
+            "pagetitle": "Portal Realm",
+            "pagecontent": "<p>As you walk closer, you see three arches light up before you. In each archway, there is an incongruous scene with the world around you. </p>",
+            "pageimg": "images/portalrealm.jpg",
+            "color": "#5289bd",
+            "pagechoice": [{
+                    "choicecontent": "Walk towards the arch on the left",
+                    "nextPageID": "Arch on the left in the Portal Realm"
+                },
+                {
+                    "choicecontent": "Walk towards the center arch",
+                    "nextPageID": "Center Arch at the Portal Realm"
+                },
+                {
+                    "choicecontent": "Walk towards the arch on the right",
+                    "nextPageID": "Right arch in the Portal Realm"
+                }
+            ]
+        },
+        {
+            "pageID": "Alarm Clock",
+            "pagetitle": "Your alarm clock wakes you up.",
+            "pagecontent": "<p>You feel the other side of your bed. It is empty and cold. Your spouse has already left for their long commute into the city to go to work.</p><p>You go downstairs to the smell of coffee and the silence of the early morning.</p><p>Your spouse getting a new job means you have to get the kids ready for school.</p>",
+            "pageimg": "images/ALARMCLOCK.jpg",
+            "color": "#504d66",
+            "pagechoice": [{
+                "choicecontent": "Walk down the hall to wake up the kids.",
+                "nextPageID": "Breakfast"
+            }]
+        },
+        {
+            "pageID": "Breakfast",
+            "pagetitle": "One of those days...",
+            "pagecontent": "<p>You start making breakfast and putting together lunches for the kids. Your wee tyrants have laid havoc to the living room. You ask them to help clean up but they only want to play this morning. It is going to be one of those days.</p><p>You finish their lunches, manage to get them dressed and look at the clock. They are about to miss the bus to school. You rush them out of the house and barely make it.</p><p>You lock the house and unlock your car.</p>",
+            "pageimg": "images/daiga-ellaby-JZ51o_-UOY8-unsplash.jpg",
+            "color": "#c28b36",
+            "pagechoice": [{
+                "choicecontent": "Get in your car.",
+                "nextPageID": "Commute"
+            }]
+        },
+        {
+            "pageID": "Commute",
+            "pagetitle": "The Morning Commute",
+            "pagecontent": "<p>You turn the keys and hear the engine turn over. The tire pressure button comes on. You really need to put more air in your tires. You queue up your weekly playlist on Spotify, hoping for the new music to cheer you up.</p><p>You sigh.</p><p>You pull out of your assigned parking space and head to the stop sign that takes you out of your neighborhood and towards work. You stop at the stop sign. This is the hardest part of every morning.</p><p>Turning right takes you to work. It is the beginning of your hour-long commute. Going right means another day at a job you hate, but because of your family, you are stuck in for the foreseeable future.</p><p>Turning left takes you anywhere else. You could skip work today. You could quit your job and find something else. Maybe.</p><p>The cars behind you start honking to make your decision.</p>",
+            "pageimg": "images/anwaar-ali-Aax_R3pUyzs-unsplash.jpg",
+            "color": "#673940",
+            "pagechoice": [{
+                    "choicecontent": "Turn Right. Be Responsible. Go to work.",
+                    "nextPageID": "Take a Right at the stop sign"
+                },
+                {
+                    "choicecontent": "Turn left and blow off work today.",
+                    "nextPageID": "Left at the stop sign"
+                }
+            ]
+        }
+    ]
+}
